@@ -8,10 +8,12 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "ultracite lint",
-    "format": "ultracite format"
+    "format": "ultracite format",
+    "server:dev": "node --experimental-strip-types src/server/main.ts"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.0.6",
+    "@types/node": "^24.0.12",
     "typescript": "~5.8.3",
     "ultracite": "^5.0.32",
     "vite": "^7.0.0",
